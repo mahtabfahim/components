@@ -1,0 +1,53 @@
+.header, .hero, .body, .bar, .footer{
+	background-color: teal;
+	margin-bottom: 10px;
+}
+
+.box{
+	margin: 10px 0;
+	min-height: 80px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+
+}
+.red{
+	background-color: lime;
+}
+
+.five{
+	background-color: blue;
+
+}
+
+.box2{
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: #dddddd;
+	border: 5px solid red;
+}
+
+.mh-400{
+	min-height: 400px;
+}
+.box3{
+	width: 300px;
+	height: 150px;
+	background-color: #dc3545;
+	border: 5px solid black;
+
+}
+.p-2{
+	width: 300px;
+	height: 150px;
+	background-color: #198754;
+	border: 5px solid black;
+}
+.h1u{text-decoration: underline;
+	text-align: center;
+
+}
+.c_h{
+   min-height: 410px;
+}

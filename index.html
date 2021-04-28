@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Components</title>
+  </head>
+  <body>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <!-- acc1 start -->
+          <div class="accordion" id="accEX1">
+           
+
+            <h1 class="h1u">Accordion</h1>
+
+            <!-- item 1 start -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cOne" aria-expanded="true" aria-controls="cOne">
+        Lorem ipsum dolor sit amet
+      </button>
+    </h2>
+    <div id="cOne" class="accordion-collapse collapse show" aria-labelledby="headOne" data-bs-parent="#accEX1">
+      <div class="accordion-body">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus. Sed consequat erat ac lacus porta tempus.</p>
+      </div>
+    </div>
+  </div>
+
+        <!--item 1 end -->
+        <!-- item 2 start -->
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Maecenas vehicula odio at felis malesuada
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headTwo" data-bs-parent="#accEX2">
+      <div class="accordion-body">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus. Sed consequat erat ac lacus porta tempus.</p>
+      </div>
+    </div>
+  </div>
+      <!--item 2 end  -->
+            <!-- item 3 start -->
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Maecenas vehicula odio at felis malesuada
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headThree" data-bs-parent="#accEX3">
+      <div class="accordion-body">
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus. Sed consequat erat ac lacus porta tempus.</p>
+      </div>
+    </div>
+  </div>
+      <!--item 3 end  -->
+
+          <!-- acc1 end -->
+
+          
+        </div>
+     
+
+
+        
+      </div>
+    <div class="col-lg-6">
+          <h1 class="h1u">Badge</h1>
+          <h1>heading 1 <span class="badge bg-primary">Primary</span></h1>
+          <h2>heading 2 <span class="badge bg-secondary">Secondary</span></h2>
+          <h3>heading 3 <span class="badge bg-success">Success</span></h3>
+          <h4>heading 4 <span class="badge bg-danger">Danger</span></h4>
+          <h5>heading 5 <span class="badge bg-warning text-dark">Warning</span></h5>
+          <h6>heading 6 <span class="badge bg-dark">Dark</span></h6>
+          
+        </div>
+      
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+        <h1 class="h1u">Breadcumb</h1>
+        <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+   </nav>
+
+   <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+   </ol>
+  </nav>
+
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Shop</li>
+  </ol>
+  </nav>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item"><a href="#">Shop</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Dress</li>
+  </ol>
+  </nav>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item"><a href="#">Shop</a></li>
+    <li class="breadcrumb-item"><a href="#">Dress</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Men and Women</li>
+  </ol>
+  </nav>
+  </div>
+
+     
+       <div class="col-lg-6">
+      <h1 style="text-decoration: underline;">Button Basic Example</h1>
+      <div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary">1</button>
+      <button type="button" class="btn btn-primary">2</button>
+      <button type="button" class="btn btn-primary">3</button>
+      </div>
+      </div>
+        
+      </div>
+      
+    </div>
+      
+    </div>
+
+      </div>
+    
+  </section>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h1 class="h1u">Basix Mixed Style Buttons </h1>
+          <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+          <button type="button" class="btn btn-danger">Left</button>
+          <button type="button" class="btn btn-warning">Middle</button>
+          <button type="button" class="btn btn-success">Right</button>
+        </div>
+          
+        </div>
+        
+   
+    
+    <div class="col-lg-3">
+      <h1 class="h1u">Outline Styles Buttons</h1>
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline-primary">Left</button>
+      <button type="button" class="btn btn-outline-primary">Middle</button>
+      <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      
+    </div>
+    <div class="col-lg-3">
+      <h1 class="h1u">Radio Buttons</h1>
+      <br><br>
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+     <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+     <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+     <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+     <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+     <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+     <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+       </div>
+       </div>
+    </div>
+       </div>
+    
+  </section>
+  <br><br>
+
+
+  <section> 
+    <h1 class="h1u">Card</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <div class="card text-center c_h">
+           <div class="card-header">
+            Lorem ipsum dolor
+          </div>
+          <img src="images/dream.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus.</p> 
+            <div class="card-footer">
+              <a href="#" class="float-start">link 1</a>
+              <a href="#" class="float-end">link 2</a>
+              
+            </div> 
+              
+            </div>
+          </div>
+        </div>
+            
+        <div class="col-lg-4 col-md-4">
+        <div class="card text-center c_h">
+          <div class="card-header">
+            Lorem ipsum dolor
+          </div>
+          <img src="images/me.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus.</p>
+            <div class="card-footer">
+              <a href="#" class="float-start">link 1</a>
+              <a href="#" class="float-end">link 2</a>
+              
+            </div> 
+          </div>
+        </div>
+      </div>
+
+          <div class="col-lg-4 col-md-4">
+        <div class="card text-center c_h">
+          <div class="card-header">
+            Lorem ipsum dolor
+          </div>
+          <img src="images/nature.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">Lorem ipsum dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vehicula odio at felis malesuada, in congue turpis blandit. Vivamus in lacus condimentum, euismod quam ac, rhoncus metus. Aenean auctor auctor sem. Sed finibus eleifend velit, et laoreet massa mollis at. Aenean vel porta elit, pretium mattis risus.</p>
+            <div class="card-footer">
+              <a href="#" class="float-start">link 1</a>
+              <a href="#" class="float-end">link 2</a>
+              
+            </div> 
+          </div>
+
+
+    </div>
+    </div>
+  
+</section>
+
+<section class="slider mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!--slider start  -->
+        <div id="caex1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <!-- indicator start -->
+           <div class="carousel-indicators">
+            <button type="button" data-bs-target="#caex1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">   </button>
+            <button type="button" data-bs-target="#caex1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#caex1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#caex1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <!-- indicator end -->
+          <!-- inner start -->
+    <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="8000">
+      <img src="images/dream.jpg" class="d-block w-100" alt="Components">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="images/lonely.jpg" class="d-block w-100" alt="Components">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="images/me.jpg" class="d-block w-100" alt="Components">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="4000">
+      <img src="images/nature.jpg" class="d-block w-100" alt="Components">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+  </div>
+   <!-- inner end -->
+      <!--controls start  -->
+       <button class="carousel-control-prev" type="button" data-bs-target="#caex1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#caex1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+      <!--controls end  -->
+
+  
+  </div>
+
+
+  </div>
+     
+</div>
+      <!-- slider end -->
+ 
+ </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Collapse</h1>
+        <p>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+    </a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-bs-target
+    </button>
+    </p>
+   <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+  </div>
+  </div>
+
+     <h1>Multiple Targets</h1>
+     <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+</div>
+    
+        
+      </div>
+      <div class="col-lg-6">
+        <h1>Dropdowns Single Button</h1>
+        <div class="dropdown">
+       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+         Dropdown button
+       </button>
+       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+         <li><a class="dropdown-item" href="#">Action</a></li>
+         <li><a class="dropdown-item" href="#">Another action</a></li>
+         <li><a class="dropdown-item" href="#">Something else here</a></li>
+       </ul>
+     </div>
+           <h1>Dropdown link</h1>
+         <div class="dropdown">
+     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+       Dropdown link
+     </a>
+
+     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+     </ul>
+     </div>
+      
+    </div>
+
+        
+      </div>
+
+    
+  </div>
+  
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Live Demo</h1>
+        <!-- Button trigger modal -->
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exml">
+  Launch demo modal
+       </button>
+
+       <!-- Modal start-->
+       <div class="modal fade" id="exml" tabindex="-1" aria-labelledby="exmlLabel" aria-hidden="true">
+        <div class="modal-dialog">
+                  <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exmlLabel">Assalamualaikum</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+              Evrything will be fine In shaa Allah.
+        
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>
+             </div>
+           </div>
+         </div>
+       </div>
+        
+      </div>
+      <!-- Modal end -->
+       
+       <div class="col-lg-6">
+        <h1>Static modal breakdown</h1>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>
+
+<!-- Modal start-->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">You have to understand that when you should stop.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        When you should stop, you must stop. Everything is already written in your fate.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+    <!-- Modal end -->
+  </div>
+</div>
+         
+       </div>
+    </div>
+    
+  </div>
+  
+</section>
+</body>
+
+
+
+
+
+    <!-- JS links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
